@@ -46,8 +46,8 @@ on_birth = {
 #character
 on_crusade_creation = {
 	events = {
-		spirit.10 # Zoroastrian Holy War against Abrahamics 
-		spirit.11 # Zoroastrian Holy War against Pagans 
+		spirit.10 # Zoroastrian Holy War against Abrahamics
+		spirit.11 # Zoroastrian Holy War against Pagans
  		spirit.12 # Zoroastrian Holy War against Heretics
 		spirit.13 # Zoroastrian Holy War against Dharmics
  	}
@@ -78,9 +78,9 @@ on_startup = {
 		ZOR.513 #Nahrawan Canal
 		ZOR.514 #Nahrawan Canal
 		ZOR.515 #Nahrawan Canal
-		
+
 		beta.1 # Beta status warning
-		
+
 		misc_event.12
 		misc_event.13
 	}
@@ -123,20 +123,18 @@ on_heresy_takeover = {
 		misc_event.9 # Nicene becomes heresy, disable Great Schism
 	}
 }
-
-<<<<<<< HEAD
 # ROOT is the character, FROM is the title, FROMFROM is the old holder
 on_new_holder_inheritance = {
 	events = {
 		WtWSMS_vice.1 #Duke or king vassal dies in bureaucratic realm
-=======
+	}
+}
 # ROOT is the creating character
 # FROM is the title
 on_create_title = {
 	events = {
 		WtWSMS_flavour.49 # Viriatus nick
 		misc_event.8 #Keep Bureaucratic government after switching primary title
->>>>>>> master
 	}
 }
 
