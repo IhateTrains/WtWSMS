@@ -1,5 +1,8 @@
 #character
 on_yearly_pulse = {
+	events = {
+		hist.28 # Extreme weather events of 535-536
+	}
 	random_events = {
 		# Flavour Events
 		100 = WtWSMS_flavour.1
@@ -25,6 +28,11 @@ on_yearly_pulse = {
 		300 = SENATE.9001
 		300 = SENATE.9002
 		300 = SENATE.9003
+	}
+}
+on_five_year_pulse = {
+	random_events = {
+		30 = historical_wtwsms.7 # Riots breaks out in Constantinople against an Isaurian emperor
 	}
 }
 
@@ -73,6 +81,7 @@ on_startup = {
 		
 		beta.1 # Beta status warning
 		
+		misc_event.12
 		misc_event.13
 	}
 }
@@ -89,6 +98,8 @@ on_major_battle_won_leader = {
 on_new_holder = {
 	events = {
 		misc_event.6 # Ask for Senate approval
+		WtWSMS_flavour.49 # Viriatus nick
+		misc_event.8 #Keep Bureaucratic government after switching primary title
 	}
 }
 
@@ -113,10 +124,19 @@ on_heresy_takeover = {
 	}
 }
 
+<<<<<<< HEAD
 # ROOT is the character, FROM is the title, FROMFROM is the old holder
 on_new_holder_inheritance = {
 	events = {
 		WtWSMS_vice.1 #Duke or king vassal dies in bureaucratic realm
+=======
+# ROOT is the creating character
+# FROM is the title
+on_create_title = {
+	events = {
+		WtWSMS_flavour.49 # Viriatus nick
+		misc_event.8 #Keep Bureaucratic government after switching primary title
+>>>>>>> master
 	}
 }
 

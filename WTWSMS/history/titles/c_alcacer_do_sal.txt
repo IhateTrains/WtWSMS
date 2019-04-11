@@ -1,5 +1,13 @@
+382.1.1 = {
+	holder = 1301127 # Volventius
+	liege = e_roman_empire
+}
+395.1.17 = {
+	liege = e_wre
+}
 409.1.1={
 	holder=190034 # Hemeric 
+	liege = 0
 }
 438.1.1={
 	holder=190039 # Rechila 
@@ -39,4 +47,10 @@
 }
 585.1.1={
 	holder= 190062 # Andeca
+}
+585.6.1={
+    holder= 212873 #Liubagilds
+}
+586.1.1={
+   holder= 36556   #Reccared
 }

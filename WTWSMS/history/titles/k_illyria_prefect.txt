@@ -2,7 +2,8 @@
 	pentarch = b_hagiasophia
 }
 330.1.1={
-	#vice_royalty=yes
+	vice_royalty=yes
+	law = succ_feudal_elective
 }
 468.1.1={
 	holder=125700
